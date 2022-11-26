@@ -8,7 +8,7 @@ class Cbbb{
     }                                                                    
 }
 
-class Cccc extends Cbbb implements iAaa{
+class Cccc extends Cbbb implements iAaa{    //Cccc同時繼承類別Cbbb，又實作介面iAaa
 
     public void show() {
         System.out.println("num="+num);
@@ -18,7 +18,7 @@ class Cccc extends Cbbb implements iAaa{
 public class Class8 {
     public static void main(String[] args) {
         Cccc cc=new Cccc();
-        cc.set(5);
+        cc.set(5);   //印出num=5
         cc.show();
     }
 }
