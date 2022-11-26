@@ -15,7 +15,7 @@ class Cccc extends Cbbb implements iAaa{    //Cccc同時繼承類別Cbbb，又�
     }
 
 }
-public class Class8 {
+public class Class08 {
     public static void main(String[] args) {
         Cccc cc=new Cccc();
         cc.set(5);   //印出num=5
