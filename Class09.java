@@ -50,7 +50,7 @@ class Compute implements Math,AdvanceMath{
 
 }
 
-public class Class9 {
+public class Class09 {
     public static void main(String[] args) {
         Compute cmp=new Compute();
         cmp.mul(3,5);
